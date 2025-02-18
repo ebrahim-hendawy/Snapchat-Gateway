@@ -2,5 +2,5 @@ homepage: "https://www.ebrahim.me"
 documentation: "https://github.com/ebrahim-hendawy/Snapchat-Gateway/"
 versions:
   # Latest version
-  - sha: a2959dfc4fab22dc8cffa07f2b77a93a3e0ecaaa61c9bae0e8171d7e8f5b957f
-    changeNotes: 1
+  - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
+    changeNotes: Initial release.
