@@ -39,11 +39,7 @@ ___TEMPLATE_PARAMETERS___
     "simpleValueType": true,
     "name": "accountId",
     "type": "TEXT",
-    "valueValidators": [
-      {
-        "type": "NON_EMPTY"
-      }
-    ]
+    "valueValidators": []
   },
   {
     "type": "TEXT",
@@ -390,7 +386,20 @@ ___WEB_PERMISSIONS___
         "publicId": "inject_script",
         "versionId": "1"
       },
-      "param": []
+      "param": [
+        {
+          "key": "urls",
+          "value": {
+            "type": 2,
+            "listItem": [
+              {
+                "type": 1,
+                "string": "https://sc-static.net/scevent.min.js"
+              }
+            ]
+          }
+        }
+      ]
     },
     "clientAnnotations": {
       "isEditedByUser": true
@@ -679,6 +688,6 @@ scenarios:
 
 ___NOTES___
 
-Created on 2/18/2025, 10:28:32 AM
+Created on 2/18/2025, 10:35:23 AM
 
 
