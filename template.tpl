@@ -1,5 +1,12 @@
-___INFO___
+___TERMS_OF_SERVICE___
 
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+
+___INFO___
 {
   "displayName": "Snapchat",
   "description": "The Snap Pixel is a piece of JavaScript code that helps Advertisers measure the cross-device impact of Campaigns. Advertisers will be able to see how many Snapchatters take action on their website(s)",
