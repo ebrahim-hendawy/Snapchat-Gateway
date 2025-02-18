@@ -7,9 +7,10 @@ Google may provide), as modified from time to time.
 
 
 ___INFO___
+
 {
-  "displayName": "Snapchat",
-  "description": "The Snap Pixel is a piece of JavaScript code that helps Advertisers measure the cross-device impact of Campaigns. Advertisers will be able to see how many Snapchatters take action on their website(s)",
+  "displayName": "Snapchat - Gateway",
+  "description": "Ebrahim Hendawy",
   "securityGroups": [],
   "categories": [
     "MARKETING",
@@ -20,7 +21,7 @@ ___INFO___
   "type": "TAG",
   "version": 1,
   "brand": {
-    "displayName": "luratic",
+    "displayName": "",
     "id": "github.com_luratic"
   },
   "containerContexts": [
@@ -389,20 +390,7 @@ ___WEB_PERMISSIONS___
         "publicId": "inject_script",
         "versionId": "1"
       },
-      "param": [
-        {
-          "key": "urls",
-          "value": {
-            "type": 2,
-            "listItem": [
-              {
-                "type": 1,
-                "string": "https://*"
-              }
-            ]
-          }
-        }
-      ]
+      "param": []
     },
     "clientAnnotations": {
       "isEditedByUser": true
@@ -678,9 +666,8 @@ scenarios:
     });
     runCode(mockData);
     assertApi('gtmOnSuccess').wasCalled();
-
 - name: Avoid calling other api methods if tr function is already available in window
-  code: |
+  code: |-
     mock('copyFromWindow', (name) => 'tr');
     runCode();
     assertApi('setInWindow').wasNotCalled();
@@ -688,3 +675,10 @@ scenarios:
     assertApi('createQueue').wasNotCalled();
     assertApi('aliasInWindow').wasNotCalled();
     assertApi('copyFromWindow').wasCalled(1);
+
+
+___NOTES___
+
+Created on 2/18/2025, 10:28:32 AM
+
+
